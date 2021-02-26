@@ -3,9 +3,10 @@ import Link from 'next/link'
 export default function Register () {
     return (
     
-        <div className="font-sans">
-        <div className="relative min-h-screen flex flex-col sm:justify-center items-center bg-gray-100 ">
-          <div className="relative sm:max-w-sm w-full">
+
+        <div className="font-sans ">
+        <div className="relative min-h-screen flex flex-col justify-center sm:justify-center items-center bg-gray-900 ">
+          <div className="relative sm:max-w-sm w-auto sm:w-full">
             <div className="card bg-gradient-to-r from-blue-400 to-indigo-500 shadow-lg  w-full h-full rounded-3xl absolute  transform -rotate-6" />
             <div className="card bg-gradient-to-r from-blue-400 to-indigo-500 shadow-lg  w-full h-full rounded-3xl absolute  transform rotate-6" />
             <div className="relative w-full rounded-3xl  px-6 py-4 bg-gray-100 shadow-md">
@@ -35,7 +36,7 @@ export default function Register () {
                   <div className="flex justify-center items-center">
                     <label className="w-full text-sm text-gray-600">Sudah punya akun?</label>
                     <Link href="/login">
-                    <a className="mx-5 text-right w-full text-blue-600 font-semibold transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
+                    <a className=" text-right w-full text-blue-600 font-semibold transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
                       Login disini
                     </a>
                     </Link>
@@ -46,6 +47,5 @@ export default function Register () {
           </div>
         </div>
       </div>
-    
     )
 }
