@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@popperjs/core": "^2.4.4",
     "@prisma/client": "^2.13.1",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@tailwindcss/forms": "^0.2.1",
+    "@types/popper.js": "^0.4.3",
     "autoprefixer": "^10.1.0",
+    "chart.js": "2.9.3",
     "next": "10.0.3",
     "postcss": "^8.2.1",
     "react": "17.0.1",
